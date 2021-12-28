@@ -1,0 +1,313 @@
+ body {
+     font-family: Gotham, Arial, sans-serif;
+     font-size: 16px;
+     color: #98a0a5;
+}
+ header {
+     width: 100%;
+     position:relative;
+     padding: 20px 0;
+}
+ .logo {
+     width: 30%;
+     float: left;
+}
+ .logo a img {
+     display: block;
+     width: 150px;
+     padding-top: 10px;
+}
+ #banner {
+     background: url(images/banner.jpg) no-repeat bottom center;
+     background-size: cover!important;
+     padding: 100px 0 60px;
+     text-align: center;
+}
+ #banner h1 {
+     font-size: 40px;
+     line-height: 50px;
+     color: #303030;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+ #banner p {
+     color: #5a5a5a;
+     font-family: Georgia, serif;
+     font-style: italic;
+     font-size: 16px;
+     line-height: 30px;
+     padding-bottom: 60px;
+     padding-top: 5px;
+}
+ #banner a {
+     display: block;
+     margin: 0 auto;
+}
+ #banner a i {
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     font-size: 24px;
+     font-weight: 700;
+     color: #525252;
+     background: #fff;
+     border-radius: 50%;
+     box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+}
+ .circle:hover{
+    background: #fff;
+}
+ .circle {
+     width: 80px;
+     height: 80px;
+     line-height: 86px;
+     background: #f1f2ef;
+     border-radius: 50%;
+     margin: 0 auto;
+}
+ #about-me {
+     padding-top: 46px;
+     text-align: center;
+}
+ #about-me .fa {
+     color: #0d6efd;
+     size: 20px;
+}
+ #articles {
+     padding-top: 46px;
+     text-align: center;
+}
+ #articles h2, #photos h2, #contact h2, #about-me h2 {
+     font-size: 30px;
+     font-weight: 700;
+     color: #303030;
+     text-transform: uppercase;
+     text-align: center;
+}
+ span.line {
+     width: 240px;
+     height: 3px;
+     display: inline-block;
+     background: #303030;
+}
+ #articles p, #photos p, #about-me p {
+     color: #5a5a5a;
+     padding-top: 10px;
+     padding-bottom: 45px;
+}
+ #articles .ratio {
+     margin: 0 auto 30px;
+}
+ #articles a img {
+     height: 100%;
+     display: block;
+     width: 100%;
+}
+ #photos {
+     padding: 45px 0 55px;
+     background: #f3f3f3;
+     border-top: 1px solid #e5e5e5;
+     border-bottom: 1px solid #e5e5e5;
+     text-align: center;
+}
+ #contact {
+     padding: 45px 0 60px;
+     text-align: center;
+}
+ #contact p {
+     padding: 25px 0;
+     text-align: left;
+     color: #5a5a5a;
+}
+ .map {
+     text-align: left;
+}
+ .map iframe {
+     width: 320px;
+     height: 320px;
+     box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.25);
+     border: 5px solid #fff;
+}
+ #contact textarea {
+     width: 100%;
+     border: 1px solid #d9d9d9;
+     background: #f2f2f2;
+     height: 236px;
+     padding: 20px 30px;
+     outline: 0;
+     margin-bottom: 13px;
+}
+ #contact .email-input {
+     float: left;
+     width: 60%;
+     outline: 0;
+}
+ #result {
+     float: left;
+}
+ #contact input {
+     width: 100%;
+     padding: 20px 30px;
+     border: 1px solid #d9d9d9;
+     background: #f2f2f2;
+     height: 60px;
+}
+ #contact .styled-button {
+     float: right;
+     width: 35%;
+}
+ .styled-button {
+     width: fit-content;
+     color: #fff;
+     border: 2px solid #fff;
+     background: #6995a9;
+     height: 60px;
+     line-height: 60px;
+     box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.25);
+}
+ #contact a i {
+     margin-right: 10px;
+}
+ footer {
+     background: #4f4f4f;
+     padding: 35px 0;
+     color: #6e6e6e;
+}
+ .container {
+     margin-right: auto;
+     margin-left: auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ @media (min-width: 768px) {
+     .container {
+         width: 750px;
+    }
+}
+ @media (min-width: 992px) {
+     .container {
+         width: 960px;
+    }
+}
+ @media (min-width: 1200px) {
+     .container {
+         width: 960px;
+    }
+}
+ .container-fluid {
+     margin-right: auto;
+     margin-left: auto;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ ul > li {
+     display: inline-block!important;
+}
+ .navbar {
+     padding: 0!important;
+}
+ .navbar-nav {
+     flex-direction: row;
+     background-color: white;
+}
+ .nav-item {
+     margin-right: 30px;
+}
+ .contact-part {
+     color:#949494;
+}
+ #countdown {
+     padding: 30px;
+     background-color: rgba(255,255,255,0.5);
+     color: #5a5a5a;
+     text-align: left;
+     width: fit-content;
+     margin: auto;
+}
+ #weather-container {
+     padding: 30px;
+     background-color: rgba(255,255,255,0.5);
+     height: 200px;
+     color: #5a5a5a;
+     width: fit-content;
+     margin: auto;
+}
+ #about-me p {
+     text-align: left;
+}
+ #name {
+     color: white!important;
+}
+ #article #countdown {
+     padding: 30px;
+     background-color: rgba(0,0,0,0.5);
+     color: rgba(255,255,255,0.8);
+     text-align: left;
+     width: fit-content;
+     margin: auto;
+}
+ #article #weather-container {
+     padding: 30px;
+     background-color: rgba(0,0,0,0.5);
+     height: 200px;
+     color: rgba(255,255,255,0.8);
+     width: fit-content;
+     margin: auto;
+}
+ .text-right {
+     text-align: right;
+}
+ #lightSlider img {
+     width: 100%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     cursor: pointer;
+}
+ .gallery {
+     display: flex;
+     padding: 2px;
+     transition: 0.3s;
+}
+ .gallery:hover .gallery__image {
+     filter: grayscale(1);
+}
+ .gallery__column {
+     display: flex;
+     flex-direction: column;
+     width: 25%;
+}
+ .gallery__link {
+     margin: 2px;
+     overflow: hidden;
+}
+ .gallery__link:hover .gallery__image {
+     filter: grayscale(0);
+}
+ .gallery__link:hover .gallery__caption {
+     opacity: 1;
+}
+ .gallery__thumb {
+     position: relative;
+     margin: 0;
+}
+ .gallery__image {
+     display: block;
+     width: 100%;
+     transition: 0.3s;
+}
+ .gallery__image:hover {
+     transform: scale(1.1);
+}
+ .gallery__caption {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     padding: 25px 15px 15px;
+     width: 100%;
+     font-family: 'Raleway', sans-serif;
+     font-size: 16px;
+     color: white;
+     opacity: 0;
+     background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, 0) 100%);
+     transition: 0.3s;
+}
+ 
